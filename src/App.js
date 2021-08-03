@@ -1,9 +1,4 @@
-import {
-  Route,
-  BrowserRouter as Router,
-  NavLink,
-  Switch,
-} from "react-router-dom";
+import { Route, HashRouter as Router, NavLink, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./Home";
 import Shop from "./Shop";
@@ -15,12 +10,7 @@ import React, { useState } from "react";
 function App() {
   const [cartqty, setCartqty] = useState(0);
   const [cartarr, setCartarr] = useState([]);
-  // const [cartnum, setCartnum] = useState([
-  //   {
-  //     img="",
-  //     quanity: 1,
-  //   },
-  // ]);
+
   const addToCart = (e) => {
     let check = 0;
     setCartqty((cartqty) => cartqty + 1);
@@ -83,7 +73,7 @@ function App() {
   };
   return (
     <div>
-      <Router>
+      <Router basename="/">
         <ul className="navbar">
           <li>
             <NavLink id="home" activeStyle={{ color: "gray" }} exact to="/">
