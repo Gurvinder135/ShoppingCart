@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ShoppingCart/static/css/main.6d2abf91.chunk.css",
+    "main.js": "/ShoppingCart/static/js/main.ab3ca1d5.chunk.js",
+    "main.js.map": "/ShoppingCart/static/js/main.ab3ca1d5.chunk.js.map",
+    "runtime-main.js": "/ShoppingCart/static/js/runtime-main.0fcdf286.js",
+    "runtime-main.js.map": "/ShoppingCart/static/js/runtime-main.0fcdf286.js.map",
+    "static/js/2.e6900f61.chunk.js": "/ShoppingCart/static/js/2.e6900f61.chunk.js",
+    "static/js/2.e6900f61.chunk.js.map": "/ShoppingCart/static/js/2.e6900f61.chunk.js.map",
+    "index.html": "/ShoppingCart/index.html",
+    "static/css/main.6d2abf91.chunk.css.map": "/ShoppingCart/static/css/main.6d2abf91.chunk.css.map",
+    "static/js/2.e6900f61.chunk.js.LICENSE.txt": "/ShoppingCart/static/js/2.e6900f61.chunk.js.LICENSE.txt",
+    "static/media/MainImg.5bfd8d55.jpg": "/ShoppingCart/static/media/MainImg.5bfd8d55.jpg",
+    "static/media/cardimg.84832a11.jpg": "/ShoppingCart/static/media/cardimg.84832a11.jpg",
+    "static/media/cart.9931441c.png": "/ShoppingCart/static/media/cart.9931441c.png",
+    "static/media/fmj.63e185e8.webp": "/ShoppingCart/static/media/fmj.63e185e8.webp",
+    "static/media/highg.5088ade1.webp": "/ShoppingCart/static/media/highg.5088ade1.webp",
+    "static/media/hms.3562580f.webp": "/ShoppingCart/static/media/hms.3562580f.webp",
+    "static/media/jean.c10ec572.jpg": "/ShoppingCart/static/media/jean.c10ec572.jpg",
+    "static/media/levig.88ceff69.jpg": "/ShoppingCart/static/media/levig.88ceff69.jpg",
+    "static/media/levis.86e5dc8d.webp": "/ShoppingCart/static/media/levis.86e5dc8d.webp",
+    "static/media/levit.084d0012.jpg": "/ShoppingCart/static/media/levit.084d0012.jpg",
+    "static/media/logo.c4019880.png": "/ShoppingCart/static/media/logo.c4019880.png",
+    "static/media/pes.9f5a6f1d.webp": "/ShoppingCart/static/media/pes.9f5a6f1d.webp",
+    "static/media/ps.39e2d409.webp": "/ShoppingCart/static/media/ps.39e2d409.webp",
+    "static/media/shoes.11e9e2a7.jpg": "/ShoppingCart/static/media/shoes.11e9e2a7.jpg",
+    "static/media/shopmainimg.9d179974.jpg": "/ShoppingCart/static/media/shopmainimg.9d179974.jpg",
+    "static/media/uss.99d2415d.webp": "/ShoppingCart/static/media/uss.99d2415d.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fcdf286.js",
+    "static/js/2.e6900f61.chunk.js",
+    "static/css/main.6d2abf91.chunk.css",
+    "static/js/main.ab3ca1d5.chunk.js"
+  ]
+}
