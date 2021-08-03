@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  list-style: none;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  justify-items: end;
+  height: 5vmax;
+  font-size: 1.8vmax;
+  position: sticky;
+  top: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  width: 3vmax;
+  height: 2.6vmax;
+  transition: all 0.2s ease-out;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar > li {
+  margin: 1vmax 4vmax;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navbar > li > a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  height: 3vmax;
+}
+.navbar > li > a:hover {
+  text-decoration: underline;
+}
+#cart > div {
+  display: flex;
+  font-size: 1.5vmax;
+}
+#cart > div > div {
+  border: 1px solid black;
+  border-radius: 15vmax;
+  background-color: black;
+  height: 2.2vmax;
+  width: 2vmax;
+  text-align: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#home {
+  display: flex;
+  width: 9vmax;
+  justify-content: space-between;
+}
+.container {
+  background-color: #f7f7f7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home > img,
+.shop > img {
+  width: 100%;
+  height: 30vmax;
+}
+#dealtext {
+  text-align: center;
+  font-size: 3vmax;
+  letter-spacing: 0.7vmax;
+}
+
+/* cardcss */
+.cardimg > img {
+  width: 21vmax;
+  height: 29vmax;
+  margin: 1vmax 5.34vmax;
+  border-radius: 1vmax;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+.cardimg > img:hover {
+  transform: scale(1.1);
+}
+.card {
+  display: inline-block;
+  text-align: center;
+}
+#button {
+  width: 8.3vmax;
+  height: 3vmax;
+  border-radius: 0.7vmax;
+  color: white;
+  background-color: black;
+  font-size: 1vmax;
+  padding: 0.5vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+#button:hover {
+  text-decoration: underline;
+}
+#button > img {
+  width: 1.3vmax;
+  filter: invert(1);
+  height: 1.3vmax;
+}
+.cardboldtext {
+  font-size: 2.7vmax;
+  font-weight: 600;
+  letter-spacing: 0.3vmax;
+}
+.cardtext {
+  font-size: 1.2vmax;
+  font-weight: 520;
+  letter-spacing: 0.05vmax;
+  width: 20vmax;
+  margin: auto;
+}
+.desc {
+  font-size: 1.2vmax;
+  font-weight: 520;
+  letter-spacing: 0.05vmax;
+  width: 21vmax;
+  height: 5vmax;
+  margin: auto;
+}
+
+/* cart */
+#cart > div > img:hover {
+  transform: scale(1.15) rotate(4deg);
+}
+hr {
+  width: 50vmax;
+  margin: 2vmax auto;
+}
+.cart > #dealtext {
+  margin-top: 4vmax;
+  font-size: 3vmax;
+  font-weight: 400;
+  letter-spacing: 0.3vmax;
+}
+.cartcard {
+  text-align: center;
+}
+.cartcard > hr {
+  width: 30vmax;
+}
+#divide {
+  display: flex;
+  width: 60vmax;
+  margin: auto;
+  justify-content: space-around;
+}
+#price {
+  text-align: center;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  height: fit-content;
+  padding: 0.7vmax;
+  font-size: 1.3vmax;
+  border-radius: 1vmax;
+}
+#price > hr {
+  width: 5vmax;
+}
+#price > div {
+  margin: 0.7vmax;
+}
+#price > button {
+  width: 5vmax;
+  height: 2.5vmax;
+}
+.empty {
+  text-align: center;
+  font-size: 2vmax;
+  letter-spacing: 0.6vmax;
 }
