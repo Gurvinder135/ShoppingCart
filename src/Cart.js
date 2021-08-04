@@ -17,16 +17,18 @@ export default function Cart({ cartarr, qtyChanged, final }) {
         <hr></hr>
         {cartarr.length > 0 ? (
           <div id="divide">
-            {cartarr.map((a) => (
-              <Cartcard
-                cardimg={a.img}
-                brand={a.brand}
-                desc={a.desc}
-                price={a.price}
-                quantity={a.quantity}
-                qtyChanged={qtyChanged}
-              />
-            ))}
+            <div>
+              {cartarr.map((a) => (
+                <Cartcard
+                  cardimg={a.img}
+                  brand={a.brand}
+                  desc={a.desc}
+                  price={a.price}
+                  quantity={a.quantity}
+                  qtyChanged={qtyChanged}
+                />
+              ))}
+            </div>
             <div id="price">
               <div>Price</div>
               <div>${pricecal(cartarr)}</div>
